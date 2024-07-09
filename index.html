@@ -42,7 +42,7 @@
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Bhumit Gupta" width="80">
+          <img src="./assets/images/Bhumit.jpg" alt="Bhumit Gupta" width="80">
         </figure>
 
         <div class="info-content">
@@ -614,15 +614,19 @@
 
           <h3 class="h3 form-title">Contact Form</h3>
 
-          <form action="#" class="form" data-form>
+          <form action="https://api.web3forms.com/submit" method="POST" class="form" data-form>
+            <input type="hidden" name="access_key" value="ad25528d-cefa-460f-99f5-7df45ae6c483">
 
             <div class="input-wrapper">
+              
               <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
 
               <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
             </div>
 
             <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
 
             <button class="form-btn" type="submit" disabled data-form-btn>
               <ion-icon name="paper-plane"></ion-icon>
